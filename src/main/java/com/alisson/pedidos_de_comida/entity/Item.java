@@ -29,4 +29,5 @@ public class Item {
     @JoinColumn(name = "pedido_id")
     @JsonIgnore
     private Pedido pedido;
+
 }
